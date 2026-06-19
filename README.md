@@ -33,29 +33,40 @@ A [Rosé Pine Moon](https://rosepinetheme.com/palette/ingredients/) theme for
 
 ## Palette mapping
 
-tut exposes 14 theme slots. They map to the official Rosé Pine Moon palette as
-follows:
+This is a **complete** port: every one of tut's 28 theme slots is set
+explicitly to a Rosé Pine Moon role — nothing falls back to tut's built-in
+(Monokai-ish) defaults.
 
-| tut slot                     | Rosé Pine Moon role | Hex       |
-|------------------------------|---------------------|-----------|
-| `background`                 | Base                | `#232136` |
-| `text`                       | Text                | `#e0def4` |
-| `subtle`                     | Muted               | `#6e6a86` |
-| `warning-text`               | Love                | `#eb6f92` |
-| `text-special-one`           | Foam                | `#9ccfd8` |
-| `text-special-two`           | Iris                | `#c4a7e7` |
-| `top-bar-background`         | Overlay             | `#393552` |
-| `top-bar-text`               | Text                | `#e0def4` |
-| `status-bar-background`      | Surface             | `#2a273f` |
-| `status-bar-text`            | Subtle              | `#908caa` |
-| `status-bar-view-background` | Pine                | `#3e8fb0` |
-| `status-bar-view-text`       | Text                | `#e0def4` |
-| `list-selected-background`   | Highlight Med       | `#44415a` |
-| `list-selected-text`         | Text                | `#e0def4` |
-
-Because tut only exposes 14 color slots, this is a faithful approximation of
-Rosé Pine Moon rather than a full per-element port — the same constraint every
-tut theme works under.
+| tut slot                            | Rosé Pine Moon role | Hex       |
+|-------------------------------------|---------------------|-----------|
+| `background`                        | Base                | `#232136` |
+| `text`                              | Text                | `#e0def4` |
+| `subtle`                            | Muted               | `#6e6a86` |
+| `warning-text`                      | Love                | `#eb6f92` |
+| `text-special-one`                  | Foam                | `#9ccfd8` |
+| `text-special-two`                  | Iris                | `#c4a7e7` |
+| `top-bar-background`                | Overlay             | `#393552` |
+| `top-bar-text`                      | Text                | `#e0def4` |
+| `status-bar-background`             | Surface             | `#2a273f` |
+| `status-bar-text`                   | Subtle              | `#908caa` |
+| `status-bar-view-background`        | Pine                | `#3e8fb0` |
+| `status-bar-view-text`              | Text                | `#e0def4` |
+| `list-selected-background`          | Highlight Med       | `#44415a` |
+| `list-selected-text`                | Text                | `#e0def4` |
+| `list-selected-inactive-background` | Highlight Low       | `#2a283e` |
+| `list-selected-inactive-text`       | Subtle              | `#908caa` |
+| `controls-text`                     | Subtle              | `#908caa` |
+| `controls-highlight`                | Iris                | `#c4a7e7` |
+| `autocomplete-background`           | Surface             | `#2a273f` |
+| `autocomplete-text`                 | Text                | `#e0def4` |
+| `autocomplete-selected-background`  | Highlight Med       | `#44415a` |
+| `autocomplete-selected-text`        | Text                | `#e0def4` |
+| `button-color-one`                  | Iris                | `#c4a7e7` |
+| `button-color-two`                  | Base                | `#232136` |
+| `timeline-name-background`          | Overlay             | `#393552` |
+| `timeline-name-text`                | Rose                | `#ea9a97` |
+| `icon-color`                        | Foam                | `#9ccfd8` |
+| `command-text`                      | Gold                | `#f6c177` |
 
 ## Credits
 

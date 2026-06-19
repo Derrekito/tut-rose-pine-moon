@@ -1,14 +1,52 @@
-background="#232136"
-text="#e0def4"
-subtle="#6e6a86"
-warning-text="#eb6f92"
-text-special-one="#9ccfd8"
-text-special-two="#c4a7e7"
-top-bar-background="#393552"
-top-bar-text="#e0def4"
-status-bar-background="#2a273f"
-status-bar-text="#908caa"
-status-bar-view-background="#3e8fb0"
-status-bar-view-text="#e0def4"
-list-selected-background="#44415a"
-list-selected-text="#e0def4"
+# Rosé Pine Moon theme for tut — full 27-slot port.
+# Palette: https://rosepinetheme.com/palette/ingredients/ (Moon variant)
+
+# --- core ---
+background="#232136"          # Base
+text="#e0def4"                # Text
+subtle="#6e6a86"              # Muted
+warning-text="#eb6f92"        # Love
+text-special-one="#9ccfd8"    # Foam
+text-special-two="#c4a7e7"    # Iris
+
+# --- top bar ---
+top-bar-background="#393552"   # Overlay
+top-bar-text="#e0def4"         # Text
+
+# --- status bar ---
+status-bar-background="#2a273f"        # Surface
+status-bar-text="#908caa"              # Subtle
+status-bar-view-background="#3e8fb0"   # Pine
+status-bar-view-text="#e0def4"         # Text
+
+# --- list selection (focused pane) ---
+list-selected-background="#44415a"     # Highlight Med
+list-selected-text="#e0def4"           # Text
+
+# --- list selection (inactive / unfocused pane) ---
+list-selected-inactive-background="#2a283e"   # Highlight Low
+list-selected-inactive-text="#908caa"         # Subtle
+
+# --- controls / hint bar (the [T]hread [R]eply letters) ---
+controls-text="#908caa"        # Subtle
+controls-highlight="#c4a7e7"   # Iris
+
+# --- autocomplete popup ---
+autocomplete-background="#2a273f"            # Surface
+autocomplete-text="#e0def4"                  # Text
+autocomplete-selected-background="#44415a"   # Highlight Med
+autocomplete-selected-text="#e0def4"         # Text
+
+# --- buttons ---
+button-color-one="#c4a7e7"     # Iris
+button-color-two="#232136"     # Base
+
+# --- timeline name tab ---
+timeline-name-background="#393552"   # Overlay
+timeline-name-text="#ea9a97"         # Rose
+
+# --- icons ---
+icon-color="#9ccfd8"           # Foam
+
+# --- command bar (the : prompt) ---
+command-text="#f6c177"         # Gold
